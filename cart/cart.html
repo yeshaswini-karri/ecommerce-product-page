@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="/images/logo.png" alt="logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Home & Living</a></li>
+            <li><a href="#">Beauty</a></li>
+        </ul>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products, brands and more">
+        </div>
+        <div class="nav-icons">
+            <a href="#">
+                <img src="/images/hearts-24.ico" alt="Wishlist">
+            </a>
+            <a href="#">
+                <img src="/images/user-24.ico" alt="Profile">
+            </a>
+            <a href="#">
+                <img src="/images/cart.ico" alt="Cart">
+            </a>
+        </div>
+    </nav>
+
+    <div class="cart-container">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items"></ul>
+        
+    </div>
+    <div class="subtotal-container">
+        <p class="subtotal" id="subtotal">Subtotal: ₹0</p>
+        <button id="checkout-btn">Checkout</button>
+    </div>
+    
+
+    <script src="cart.js"></script>
+</body>
+</html>
